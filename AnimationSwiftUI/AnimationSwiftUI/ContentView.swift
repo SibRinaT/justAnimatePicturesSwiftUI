@@ -8,14 +8,55 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isAnimating = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ZStack {
+                ZStack {
+                    Ellipse()
+                        .fill(Color.white)
+                        .frame(width: 150, height: 100)
+                        .offset(x: 25, y: 0)
+                    Ellipse()
+                        .fill(Color.white)
+                        .frame(width: 100, height: 80)
+                        .offset(x: -25, y: -10)
+                    Ellipse()
+                        .fill(Color.white)
+                        .frame(width: 80, height: 60)
+                        .offset(x: 40, y: -32)
+                    Ellipse()
+                        .fill(Color.white)
+                        .frame(width: 80, height: 60)
+                        .offset(x: 40, y: 30)
+                }
+               
+            }
+            .scaleEffect(isAnimating ? 2 : 1)
+            .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: true))
+                    .onAppear {
+                        isAnimating = true
+                    }
+            
+            .padding(.vertical, 50)
+            Rectangle()
+                .fill(Color.yellow)
+                .frame(width: 100, height: 100)
+                .rotationEffect(.degrees(isAnimating ? 360 : 0))
+                .animation(.linear(duration: 1))
+            
+            Button("Animate") {
+                withAnimation {
+                    isAnimating.toggle()
+                }
+            }
+            .foregroundColor(.gray)
+            .bold()
+            .font(.title)
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.blue)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
