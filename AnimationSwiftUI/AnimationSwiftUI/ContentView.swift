@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Animation1: View {
     @State private var isAnimating = false
     var body: some View {
         VStack {
@@ -61,5 +61,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Animation1()
 }
