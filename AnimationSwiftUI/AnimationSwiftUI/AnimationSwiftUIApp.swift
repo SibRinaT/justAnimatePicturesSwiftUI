@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimationSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Animation1()
+            Animation2()
         }
     }
 }
