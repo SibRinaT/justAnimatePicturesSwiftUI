@@ -11,10 +11,45 @@
 		2E79A6B52BAEBA6400A4A8F4 /* Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E79A6B42BAEBA6400A4A8F4 /* Animation1.swift */; };
 		2E79A6B72BAEBA6600A4A8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E79A6B62BAEBA6600A4A8F4 /* Assets.xcassets */; };
 		2E79A6BA2BAEBA6600A4A8F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E79A6B92BAEBA6600A4A8F4 /* Preview Assets.xcassets */; };
+		2E80BEE82BC11F3C00646AC5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BEE72BC11F3C00646AC5 /* WidgetKit.framework */; };
+		2E80BEEA2BC11F3D00646AC5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BEE92BC11F3D00646AC5 /* SwiftUI.framework */; };
+		2E80BEED2BC11F3D00646AC5 /* MyFirstWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80BEEC2BC11F3D00646AC5 /* MyFirstWidgetBundle.swift */; };
+		2E80BEEF2BC11F3D00646AC5 /* MyFirstWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80BEEE2BC11F3D00646AC5 /* MyFirstWidgetLiveActivity.swift */; };
+		2E80BEF12BC11F3D00646AC5 /* MyFirstWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80BEF02BC11F3D00646AC5 /* MyFirstWidget.swift */; };
+		2E80BEF32BC11F3D00646AC5 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80BEF22BC11F3D00646AC5 /* AppIntent.swift */; };
+		2E80BEF52BC11F3E00646AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E80BEF42BC11F3E00646AC5 /* Assets.xcassets */; };
+		2E80BEF92BC11F3E00646AC5 /* MyFirstWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E80BEE52BC11F3C00646AC5 /* MyFirstWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2E8D5D6F2BB3EE74007CF602 /* Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D5D6E2BB3EE74007CF602 /* Animation2.swift */; };
 		2E8D5D712BB3F218007CF602 /* HelpViewAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D5D702BB3F218007CF602 /* HelpViewAnimation2.swift */; };
 		2EC4DBFB2BBE732C00DE1B43 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4DBFA2BBE732C00DE1B43 /* CameraView.swift */; };
+		2EC4DBFF2BBE868400DE1B43 /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4DBFE2BBE868400DE1B43 /* SpeechView.swift */; };
+		2EC4DC012BBE8C1100DE1B43 /* SpeechRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4DC002BBE8C1100DE1B43 /* SpeechRec.swift */; };
+		2EC4DC032BBE966600DE1B43 /* CoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4DC022BBE966600DE1B43 /* CoreMotion.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E80BEF72BC11F3E00646AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E79A6A72BAEBA6400A4A8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E80BEE42BC11F3C00646AC5;
+			remoteInfo = MyFirstWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E80BEFD2BC11F3E00646AC5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E80BEF92BC11F3E00646AC5 /* MyFirstWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E79A6AF2BAEBA6400A4A8F4 /* AnimationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,9 +57,21 @@
 		2E79A6B42BAEBA6400A4A8F4 /* Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation1.swift; sourceTree = "<group>"; };
 		2E79A6B62BAEBA6600A4A8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E79A6B92BAEBA6600A4A8F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E80BEE52BC11F3C00646AC5 /* MyFirstWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyFirstWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E80BEE72BC11F3C00646AC5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2E80BEE92BC11F3D00646AC5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2E80BEEC2BC11F3D00646AC5 /* MyFirstWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWidgetBundle.swift; sourceTree = "<group>"; };
+		2E80BEEE2BC11F3D00646AC5 /* MyFirstWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		2E80BEF02BC11F3D00646AC5 /* MyFirstWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWidget.swift; sourceTree = "<group>"; };
+		2E80BEF22BC11F3D00646AC5 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		2E80BEF42BC11F3E00646AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E80BEF62BC11F3E00646AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E8D5D6E2BB3EE74007CF602 /* Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2.swift; sourceTree = "<group>"; };
 		2E8D5D702BB3F218007CF602 /* HelpViewAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewAnimation2.swift; sourceTree = "<group>"; };
 		2EC4DBFA2BBE732C00DE1B43 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2EC4DBFE2BBE868400DE1B43 /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		2EC4DC002BBE8C1100DE1B43 /* SpeechRec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRec.swift; sourceTree = "<group>"; };
+		2EC4DC022BBE966600DE1B43 /* CoreMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +82,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E80BEE22BC11F3C00646AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E80BEEA2BC11F3D00646AC5 /* SwiftUI.framework in Frameworks */,
+				2E80BEE82BC11F3C00646AC5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				2E79A6B12BAEBA6400A4A8F4 /* AnimationSwiftUI */,
+				2E80BEEB2BC11F3D00646AC5 /* MyFirstWidget */,
+				2E80BEE62BC11F3C00646AC5 /* Frameworks */,
 				2E79A6B02BAEBA6400A4A8F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				2E79A6AF2BAEBA6400A4A8F4 /* AnimationSwiftUI.app */,
+				2E80BEE52BC11F3C00646AC5 /* MyFirstWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				2E79A6B22BAEBA6400A4A8F4 /* AnimationSwiftUIApp.swift */,
+				2EC4DBFE2BBE868400DE1B43 /* SpeechView.swift */,
 				2EC4DBFA2BBE732C00DE1B43 /* CameraView.swift */,
+				2EC4DC002BBE8C1100DE1B43 /* SpeechRec.swift */,
+				2EC4DC022BBE966600DE1B43 /* CoreMotion.swift */,
 				2E8D5D6D2BB3EE5C007CF602 /* AnimationViews */,
 				2E79A6B62BAEBA6600A4A8F4 /* Assets.xcassets */,
 				2E79A6B82BAEBA6600A4A8F4 /* Preview Content */,
@@ -72,6 +134,28 @@
 				2E79A6B92BAEBA6600A4A8F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E80BEE62BC11F3C00646AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E80BEE72BC11F3C00646AC5 /* WidgetKit.framework */,
+				2E80BEE92BC11F3D00646AC5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E80BEEB2BC11F3D00646AC5 /* MyFirstWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2E80BEEC2BC11F3D00646AC5 /* MyFirstWidgetBundle.swift */,
+				2E80BEEE2BC11F3D00646AC5 /* MyFirstWidgetLiveActivity.swift */,
+				2E80BEF02BC11F3D00646AC5 /* MyFirstWidget.swift */,
+				2E80BEF22BC11F3D00646AC5 /* AppIntent.swift */,
+				2E80BEF42BC11F3E00646AC5 /* Assets.xcassets */,
+				2E80BEF62BC11F3E00646AC5 /* Info.plist */,
+			);
+			path = MyFirstWidget;
 			sourceTree = "<group>";
 		};
 		2E8D5D6D2BB3EE5C007CF602 /* AnimationViews */ = {
@@ -102,15 +186,34 @@
 				2E79A6AB2BAEBA6400A4A8F4 /* Sources */,
 				2E79A6AC2BAEBA6400A4A8F4 /* Frameworks */,
 				2E79A6AD2BAEBA6400A4A8F4 /* Resources */,
+				2E80BEFD2BC11F3E00646AC5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2E80BEF82BC11F3E00646AC5 /* PBXTargetDependency */,
 			);
 			name = AnimationSwiftUI;
 			productName = AnimationSwiftUI;
 			productReference = 2E79A6AF2BAEBA6400A4A8F4 /* AnimationSwiftUI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2E80BEE42BC11F3C00646AC5 /* MyFirstWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E80BEFA2BC11F3E00646AC5 /* Build configuration list for PBXNativeTarget "MyFirstWidgetExtension" */;
+			buildPhases = (
+				2E80BEE12BC11F3C00646AC5 /* Sources */,
+				2E80BEE22BC11F3C00646AC5 /* Frameworks */,
+				2E80BEE32BC11F3C00646AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstWidgetExtension;
+			productName = MyFirstWidgetExtension;
+			productReference = 2E80BEE52BC11F3C00646AC5 /* MyFirstWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -123,6 +226,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					2E79A6AE2BAEBA6400A4A8F4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2E80BEE42BC11F3C00646AC5 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -141,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				2E79A6AE2BAEBA6400A4A8F4 /* AnimationSwiftUI */,
+				2E80BEE42BC11F3C00646AC5 /* MyFirstWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +262,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E80BEE32BC11F3C00646AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E80BEF52BC11F3E00646AC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,13 +279,35 @@
 			files = (
 				2E8D5D6F2BB3EE74007CF602 /* Animation2.swift in Sources */,
 				2E8D5D712BB3F218007CF602 /* HelpViewAnimation2.swift in Sources */,
+				2EC4DC032BBE966600DE1B43 /* CoreMotion.swift in Sources */,
+				2EC4DC012BBE8C1100DE1B43 /* SpeechRec.swift in Sources */,
 				2E79A6B52BAEBA6400A4A8F4 /* Animation1.swift in Sources */,
 				2EC4DBFB2BBE732C00DE1B43 /* CameraView.swift in Sources */,
+				2EC4DBFF2BBE868400DE1B43 /* SpeechView.swift in Sources */,
 				2E79A6B32BAEBA6400A4A8F4 /* AnimationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E80BEE12BC11F3C00646AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E80BEED2BC11F3D00646AC5 /* MyFirstWidgetBundle.swift in Sources */,
+				2E80BEF32BC11F3D00646AC5 /* AppIntent.swift in Sources */,
+				2E80BEF12BC11F3D00646AC5 /* MyFirstWidget.swift in Sources */,
+				2E80BEEF2BC11F3D00646AC5 /* MyFirstWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E80BEF82BC11F3E00646AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E80BEE42BC11F3C00646AC5 /* MyFirstWidgetExtension */;
+			targetProxy = 2E80BEF72BC11F3E00646AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E79A6BB2BAEBA6600A4A8F4 /* Debug */ = {
@@ -295,6 +432,7 @@
 		2E79A6BE2BAEBA6600A4A8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +440,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "I need your permission (change this)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +463,7 @@
 		2E79A6BF2BAEBA6600A4A8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,6 +471,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "I need your permission (change this)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +485,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E80BEFB2BC11F3E00646AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFirstWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyFirstWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationSwiftUI.MyFirstWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E80BEFC2BC11F3E00646AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFirstWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyFirstWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnimationSwiftUI.MyFirstWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,6 +560,15 @@
 			buildConfigurations = (
 				2E79A6BE2BAEBA6600A4A8F4 /* Debug */,
 				2E79A6BF2BAEBA6600A4A8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E80BEFA2BC11F3E00646AC5 /* Build configuration list for PBXNativeTarget "MyFirstWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E80BEFB2BC11F3E00646AC5 /* Debug */,
+				2E80BEFC2BC11F3E00646AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
