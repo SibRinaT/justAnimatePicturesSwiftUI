@@ -1,22 +1,32 @@
+////
+////  SpeechTry2.swift
+////  AnimationSwiftUI
+////
+////  Created by Ainur on 04.04.2024.
+////
 //
-//  SpeechTry2.swift
-//  AnimationSwiftUI
+//import SwiftUI
+//import Speech
 //
-//  Created by Ainur on 04.04.2024.
+//struct SpeechRec: View {
+//    @State var speechRec = SpeechRec()
+//        var body: some View {
+//            Text(speechRec.recognizedText)
+//                .onAppear {
+//                    self.speechRec.start()
+//            }
+//            
+//        }
+//    func start() {
+//        SFSpeechRecognizer.requestAuthorization { status in
+//            
+//        }
+//    }
+//}
 //
-
-import SwiftUI
-
-struct SpeechRec: View {
-    @ObservedObject var speechRec = SpeechRec()
-        var body: some View {
-            Text(speechRec.recognizedText)
-                .onAppear {
-                    self.speechRec.start()
-            }
-        }
-}
-
-#Preview {
-    SpeechRec()
-}
+//class SpeechRec: ObservableObject {
+//    @Published private(set) var recognizedText = ""
+//    func start() {
+//        recognizedText = "Привет!"
+//    }
+//}
